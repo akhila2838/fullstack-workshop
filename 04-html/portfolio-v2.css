@@ -1,1 +1,201 @@
+/* ===== Reset & Base Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/* ===== Navigation ===== */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Main Layout ===== */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #0f172a;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+/* ===== About Section ===== */
+figure {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+figure img {
+    border-radius: 50%;
+    border: 3px solid #0f172a;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+#about ul {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+}
+
+#about li {
+    margin-bottom: 0.5rem;
+}
+
+/* ===== Projects Section ===== */
+article {
+    border: 1px solid #e2e8f0;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-radius: 6px;
+}
+
+article h3 {
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Contact Form ===== */
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 4px;
+    border: 1px solid #cbd5f5;
+    margin-top: 0.3rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+button {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* ===== Social Links ===== */
+#contact ul {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+#contact a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    figure {
+        flex-direction: column;
+        text-align: center;
+    }
+}
