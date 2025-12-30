@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Akhila</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+<section id="home" class="bg-primary text-white text-center py-5 mt-5">
+    <div class="container py-5">
+        <h1 class="display-4 fw-bold">Hi,i'm Akhila</h1>
+        <p class="lead">software Trainee</p>
+        <a href="#projects" class="btn btn-light btn-lg mt-3">Visit My Work</a>
+    </div>
+</section>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-3">
+                <img src="https://i.pinimg.com/736x/72/b5/dc/72b5dcf7d3451a5a629b684ecdc65ec8.jpg" width="400px" class="img-fluid rounded" alt="Profile Image">
+            </div>
+
+            <div class="col-md-6">
+                <p>
+                    I am a passionate Java Full Stack Developer with a strong foundation in
+                    HTML, CSS, Bootstrap, Java, and Spring Boot. I enjoy building responsive
+                    and user-friendly web applications.
+                </p>
+
+                <h5>Skills:</h5>
+                <ul>
+                    <li>Java, Spring Boot</li>
+                    <li>HTML, CSS, Bootstrap</li>
+                    <li>JavaScript, SQL</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= PROJECTS SECTION ================= -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Projects</h2>
+
+        <div class="row g-4">
+            <!-- Project Card 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="https://th.bing.com/th/id/OIP.AS1Bav3lo_agNTbJKB8L5wHaDt?w=302&h=175&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" height="200px" class="card-img-top" alt="Project">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">A responsive personal portfolio built using Bootstrap.</p>
+                        <span class="badge bg-primary">HTML</span>
+                        <span class="badge bg-success">Bootstrap</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Duplicate for remaining 5 projects -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="data:image/webp;base64,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" height="200px" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Student Management</h5>
+                        <p class="card-text">CRUD application using Java and Spring Boot.</p>
+                        <span class="badge bg-warning">Java</span>
+                        <span class="badge bg-info">Spring</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="https://static.vecteezy.com/system/resources/previews/011/277/904/original/login-screen-modern-login-page-design-illustration-template-free-vector.jpg" height="200px" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Login System</h5>
+                        <p class="card-text">Authentication system with validation.</p>
+                        <span class="badge bg-secondary">Java</span>
+                        <span class="badge bg-dark">SQL</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/095906101424887.5f1ecfac8146c.png" height="200px" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather App</h5>
+                        <p class="card-text">Weather application using APIs.</p>
+                        <span class="badge bg-info">API</span>
+                        <span class="badge bg-success">JavaScript</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.hSgTfPD4zVw_yWXfWXEfgwHaEc?rs=1&pid=ImgDetMain&o=7&rm=3" height="200px" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">E-Commerce UI</h5>
+                        <p class="card-text">Frontend layout using Bootstrap grid.</p>
+                        <span class="badge bg-primary">Bootstrap</span>
+                        <span class="badge bg-secondary">CSS</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="https://3l.co.ke/wp-content/uploads/2021/05/blog.jpg" height="200px" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Website</h5>
+                        <p class="card-text">Simple blog layout using Bootstrap components.</p>
+                        <span class="badge bg-dark">HTML</span>
+                        <span class="badge bg-primary">Bootstrap</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h5>Get in Touch</h5>
+                <p>Email: Akhila@gmail.com</p>
+                <p>Phone: +91 XXXXXXXX</p>
+                <p>Location: India</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4">
+                <h6>Quick Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+                    <li><a href="#projects" class="text-white text-decoration-none">Projects</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h6>Social</h6>
+                <p>LinkedIn | GitHub | Twitter</p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="mt-3">&copy; 2025 Akhila. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
