@@ -1,7 +1,7 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-30 12:13
+**Review Date:** 2025-12-30 15:26
 
 ---
 
@@ -12,37 +12,35 @@
 ### Code Review
 
 📄 **counter.html**
-   Path: `06-javascript/counter.html`
-   Lines: 26
+   Path: `06-javascript/challenge-01/counter.html`
+   Lines: 35
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
-    - ❌ Missing viewport meta tag
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
 
-   **Score: 3/5**
+   **Score: 5/5**
 
 📄 **counter.js**
-   Path: `06-javascript/counter.js`
-   Lines: 36
+   Path: `06-javascript/challenge-01/counter.js`
+   Lines: 39
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
     - ✅ Uses arrow functions
-    - 💡 Consider using template literals for string interpolation
-    - 💡 Consider using array methods (map, filter, reduce)
+    - ✅ Uses template literals
+    - ✅ Uses modern array methods
 
-   **Score: 3/5**
+   **Score: 5/5**
 
-### Topic Score: 6 / 10 (60%)
+### Topic Score: 10 / 10 (100%)
 
 ---
 
 ## Challenge
 
-**Status:** ⚠️ Not submitted
-
-Submit to: `06-javascript/challenge-01/`
+**Status:** ✅ Submitted (2 files)
 
 ---
 
