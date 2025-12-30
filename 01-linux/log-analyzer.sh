@@ -27,5 +27,4 @@ for ip in $IP_LIST;
 do 
 	echo " -$ip"
 done
-
 echo "==================================="
