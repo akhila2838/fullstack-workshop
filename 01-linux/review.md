@@ -1,7 +1,7 @@
 # Review: 01-linux
 
 **Exercise:**  Exercise: Log File Analyzer Script
-**Review Date:** 2025-12-30 12:13
+**Review Date:** 2025-12-30 15:26
 
 ---
 
@@ -17,7 +17,7 @@
 
 📄 **log-analyzer.sh**
    Path: `01-linux/log-analyzer.sh`
-   Lines: 30
+   Lines: 29
 
     - ❌ Missing shebang (`#!/bin/bash`)
     - ❌ Missing `set -e` for error handling
