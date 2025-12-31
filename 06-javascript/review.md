@@ -1,13 +1,13 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-30 15:26
+**Review Date:** 2025-12-31 09:38
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 3
+**Files submitted:** 7
 
 ### Code Review
 
@@ -34,7 +34,53 @@
 
    **Score: 5/5**
 
-### Topic Score: 10 / 10 (100%)
+📄 **form-validator.html**
+   Path: `06-javascript/challenge-02/form-validator.html`
+   Lines: 49
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **form-validator.js**
+   Path: `06-javascript/challenge-02/form-validator.js`
+   Lines: 86
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+📄 **validate-password.html**
+   Path: `06-javascript/challenge-13/validate-password.html`
+   Lines: 46
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **validate-password.js**
+   Path: `06-javascript/challenge-13/validate-password.js`
+   Lines: 80
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - ✅ Uses arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses modern array methods
+
+   **Score: 4/5**
+
+### Topic Score: 24 / 30 (80%)
 
 ---
 
