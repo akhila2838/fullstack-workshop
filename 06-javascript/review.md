@@ -1,13 +1,17 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-31 09:38
+**Review Date:** 2025-12-31 10:53
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 7
+**Files submitted:** 8
+
+### Relevance Check
+
+Unable to check - no exercise file
 
 ### Code Review
 
@@ -57,6 +61,29 @@
 
    **Score: 2/5**
 
+📄 **type-checker.html**
+   Path: `06-javascript/challenge-12/type-checker.html`
+   Lines: 12
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ❌ Missing viewport meta tag
+    - ✅ Has `lang` attribute
+
+   **Score: 3/5**
+
+📄 **type-checker.js**
+   Path: `06-javascript/challenge-12/type-checker.js`
+   Lines: 68
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - ✅ Uses arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 3/5**
+
 📄 **validate-password.html**
    Path: `06-javascript/challenge-13/validate-password.html`
    Lines: 46
@@ -80,13 +107,21 @@
 
    **Score: 4/5**
 
-### Topic Score: 24 / 30 (80%)
+### Topic Score: 30 / 40 (75%)
 
 ---
 
 ## Challenge
 
 **Status:** ✅ Submitted (2 files)
+
+### Challenge Relevance Check
+
+❌ **Submission does NOT match exercise requirements**
+   Expected keywords: task manager todo add delete
+   Found only: add 
+   **Please review the exercise requirements and resubmit**
+
 
 ---
 
