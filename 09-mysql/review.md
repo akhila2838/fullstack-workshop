@@ -1,7 +1,7 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2026-01-02 13:55
+**Review Date:** 2026-01-02 16:47
 
 ---
 
@@ -27,13 +27,12 @@ Please complete the correct exercise and resubmit.
 
 ## Challenge
 
-**Status:** ✅ Submitted (1 files)
+**Status:** ✅ Submitted (5 files)
 
 ### Challenge Relevance Check
 
-⚠️ Submission partially matches exercise requirements
-   Found: employee department salary 
-   Missing: project assignment 
+✅ Submission appears relevant to the exercise
+   Found keywords: employee department salary project assignment 
 
 ### Challenge Code Review
 
@@ -51,7 +50,47 @@ Please complete the correct exercise and resubmit.
 
    **Score: 5/5**
 
-### Challenge Score: 5 / 5 (100%)
+📄 **employee-hierarchy.sql**
+   Lines: 6
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 3/5**
+
+📄 **project-workload.sql**
+   Lines: 10
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - ✅ Uses aggregate functions
+    - ✅ Uses GROUP BY for aggregation
+    - ✅ Uses explicit column selection
+
+   **Score: 5/5**
+
+📄 **unassigned-resources.sql**
+   Lines: 4
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 3/5**
+
+📄 **name-formatter.sql**
+   Lines: 12
+
+    - ✅ Contains 1 SELECT statement(s)
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 2/4**
+
+### Challenge Score: 18 / 24 (75%)
 
 
 ---
