@@ -1,19 +1,19 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2025-12-31 10:53
+**Review Date:** 2026-01-02 13:55
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 0
+**Files submitted:** 5
 
 ### Relevance Check
 
 ❌ **Submission does NOT match exercise requirements**
    Expected keywords: customer product category order ecommerce schema queries
-   None of the expected keywords found in submission
+   Found only: order 
    **Please review the exercise requirements and resubmit**
 
 ### ⚠️ Review Skipped
@@ -27,9 +27,32 @@ Please complete the correct exercise and resubmit.
 
 ## Challenge
 
-**Status:** ⚠️ Not submitted
+**Status:** ✅ Submitted (1 files)
 
-Submit to: `09-mysql/challenges/`
+### Challenge Relevance Check
+
+⚠️ Submission partially matches exercise requirements
+   Found: employee department salary 
+   Missing: project assignment 
+
+### Challenge Code Review
+
+📄 **department-stats.sql**
+   Lines: 7
+
+    📋 **Challenge 1: Department Stats**
+    Expected: department, employee_count, avg_salary, max_salary
+
+    - ✅ Groups by department
+    - ✅ Counts employees (COUNT(*))
+    - ✅ Calculates average salary
+    - ✅ Finds maximum salary
+    - ✅ Filters departments with >2 employees (HAVING)
+
+   **Score: 5/5**
+
+### Challenge Score: 5 / 5 (100%)
+
 
 ---
 
