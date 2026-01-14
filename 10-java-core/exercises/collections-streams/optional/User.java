@@ -1,0 +1,36 @@
+
+package Optional;
+
+
+import java.util.Optional;
+
+public class User {
+
+    private Long id;
+    private String email;
+    private String middleName;
+    private Address address;
+
+    public User(Long id, String email, String middleName, Address address) {
+        this.id = id;
+        this.email = email;
+        this.middleName = middleName;
+        this.address = address;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public Optional<String> getMiddleName() {
+        return Optional.ofNullable(middleName);
+    }
+
+    public Optional<Address> getAddress() {
+        return Optional.ofNullable(address);
+    }
+}
